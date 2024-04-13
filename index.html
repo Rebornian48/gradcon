@@ -1,9 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-QF6QHSQGFP"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-QF6QHSQGFP");
+    </script>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta http-equiv="Content-Script-Type" content="text/javascript" />
+    <meta http-equiv="Content-Style-Type" content="text/css" />
+    <meta http-equiv="pragma" content="no-cache" />
+    <meta http-equiv="Cache-Control" content="no-cache" />
+    <meta name="author" content="Rebornian48" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Graduation Concert "LAST VOYAGE"</title>
+    <title>Shani Indira Natio Graduation Concert and Last Show</title>
+    <!-- Favicon -->
     <link
       rel="icon"
       href="https://avatars.githubusercontent.com/u/80138640"
@@ -14,45 +35,195 @@
       rel="stylesheet"
       href="https://use.fontawesome.com/releases/v6.5.1/css/all.css"
     />
-    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.10.1/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <!-- Core theme CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
     <script src="https://cdn.tailwindcss.com"></script>
   </head>
+
   <body>
-    <div class="hero min-h-screen" style="background-image: url(./assets/img/header-singc.jpg);">
+    <div class="navbar bg-base-100">
+      <div class="flex-1">
+        <a class="btn btn-ghost text-xl">Rebornian48</a>
+      </div>
+      <div class="flex-none">
+        <ul class="menu menu-horizontal px-1">
+          <div class="dropdown mb-5">
+            <div tabindex="0" role="button" class="m-1">
+              Tema
+              <svg
+                width="12px"
+                height="12px"
+                class="h-2 w-2 fill-current opacity-60 inline-block"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 2048 2048"
+              >
+                <path
+                  d="M1799 349l242 241-1017 1017L7 590l242-241 775 775 775-775z"
+                ></path>
+              </svg>
+            </div>
+            <ul
+              tabindex="0"
+              class="dropdown-content z-[1] p-2 shadow-2xl bg-base-300 rounded-box w-52"
+            >
+              <li>
+                <input
+                  type="radio"
+                  name="theme-dropdown"
+                  class="theme-controller btn btn-sm btn-block btn-ghost justify-start"
+                  aria-label="Gelap"
+                  value="dark"
+                />
+              </li>
+              <li>
+                <input
+                  type="radio"
+                  name="theme-dropdown"
+                  class="theme-controller btn btn-sm btn-block btn-ghost justify-start"
+                  aria-label="Terang"
+                  value="light"
+                />
+              </li>
+              <li>
+                <input
+                  type="radio"
+                  name="theme-dropdown"
+                  class="theme-controller btn btn-sm btn-block btn-ghost justify-start"
+                  aria-label="Malam"
+                  value="night"
+                />
+              </li>
+              <li>
+                <input
+                  type="radio"
+                  name="theme-dropdown"
+                  class="theme-controller btn btn-sm btn-block btn-ghost justify-start"
+                  aria-label="Senja"
+                  value="sunset"
+                />
+              </li>
+            </ul>
+          </div>
+          <li>&nbsp;&nbsp;&nbsp;&nbsp;</li>
+          <li>&nbsp;&nbsp;&nbsp;&nbsp;</li>
+          <li>&nbsp;&nbsp;&nbsp;&nbsp;</li>
+          <li>&nbsp;&nbsp;&nbsp;&nbsp;</li>
+        </ul>
+      </div>
     </div>
-    <ul class="timeline timeline-vertical">
-      <li>
-        <div class="timeline-start timeline-box">2 Juli 2023 : Shani Indira Natio mengumumkan kelulusannya</div>
-        <div class="timeline-middle">
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-5 h-5 text-primary"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z" clip-rule="evenodd" /></svg>
+    <div class="hero bg-base-200">
+      <div class="artboard artboard-horizontal phone-3"><img src="./assets/img/header-singc.jpg" alt="Shani Indira Natio Graduation Concert"></div>
+    </div>
+    <div class="hero bg-base-200">
+      <div class="stats stats-vertical lg:stats-horizontal shadow">
+        <div class="stat">
+          <div class="stat-title">Graduation Concert</div>
+          <div class="grid grid-flow-col gap-5 text-center auto-cols-max">
+            <div class="flex flex-col">
+              <span class="countdown font-mono text-5xl">
+                <span style="--value:15;"></span>
+              </span>
+              hari
+            </div> 
+            <div class="flex flex-col">
+              <span class="countdown font-mono text-5xl">
+                <span style="--value:10;"></span>
+              </span>
+              jam
+            </div> 
+            <div class="flex flex-col">
+              <span class="countdown font-mono text-5xl">
+                <span style="--value:24;"></span>
+              </span>
+              menit
+            </div> 
+            <div class="flex flex-col">
+              <span class="countdown font-mono text-5xl">
+                <span style="--value:1;"></span>
+              </span>
+              detik
+            </div>
+          </div>
         </div>
-        <hr class="bg-primary"/>
-      </li>
-      <li>
-      <hr class="bg-primary"/>
-        <div class="timeline-middle">
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-5 h-5 text-primary"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z" clip-rule="evenodd" /></svg>
+        <div class="stat">
+          <div class="stat-title">Last Show</div>
+          <div class="grid grid-flow-col gap-5 text-center auto-cols-max">
+            <div class="flex flex-col">
+              <span class="countdown font-mono text-5xl">
+                <span style="--value:15;"></span>
+              </span>
+              hari
+            </div> 
+            <div class="flex flex-col">
+              <span class="countdown font-mono text-5xl">
+                <span style="--value:10;"></span>
+              </span>
+              jam
+            </div> 
+            <div class="flex flex-col">
+              <span class="countdown font-mono text-5xl">
+                <span style="--value:24;"></span>
+              </span>
+              menit
+            </div> 
+            <div class="flex flex-col">
+              <span class="countdown font-mono text-5xl">
+                <span style="--value:1;"></span>
+              </span>
+              detik
+            </div>
+          </div>
         </div>
-        <div class="timeline-end timeline-box">11 Oktober 2023 : MV Sayonara Crawl dirilis<br />
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/5cy3vDjTfFY?si=ZJKCwjEgofpkPxQf" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      </div>
+      </div>
+        <ul class="timeline timeline-vertical">
+          <li>
+            <div class="timeline-start timeline-box">2 Juli 2023 : Shani Indira Natio mengumumkan kelulusannya</div>
+            <div class="timeline-middle">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-5 h-5 text-primary"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z" clip-rule="evenodd" /></svg>
+            </div>
+            <hr class="bg-primary"/>
+          </li>
+          <li>
+          <hr class="bg-primary"/>
+            <div class="timeline-middle">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-5 h-5 text-primary"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z" clip-rule="evenodd" /></svg>
+            </div>
+            <div class="timeline-end timeline-box">11 Oktober 2023 : MV Sayonara Crawl dirilis<br />
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/5cy3vDjTfFY?si=ZJKCwjEgofpkPxQf" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+            <hr class="bg-primary"/>
+          </li>
+          <li>
+            <hr/>
+            <div class="timeline-middle">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-5 h-5"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z" clip-rule="evenodd" /></svg>
+            </div>
+            <div class="timeline-end timeline-box">27 April 2024 : Graduation Concert "Last Voyage"</div>
+            <hr/>
+          </li>
+          <li>
+            <hr/>
+            <div class="timeline-start timeline-box">5 Mei 2024 : Last Show Perayaan Kelulusan Shani Indira Natio</div>
+            <div class="timeline-middle">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-5 h-5"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z" clip-rule="evenodd" /></svg>
+            </div>
+          </li>
+        </ul>
+        
+      </div>
+          <footer>
+            <p class="text-center">
+              Dibangun oleh
+              <a href="https://rebornian48.github.io/">Rebornian48</a>
+            </p>
+          </footer>
         </div>
-        <hr class="bg-primary"/>
-      </li>
-      <li>
-        <hr/>
-        <div class="timeline-middle">
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-5 h-5"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z" clip-rule="evenodd" /></svg>
-        </div>
-        <div class="timeline-end timeline-box">27 April 2024 : Graduation Concert "Last Voyage"</div>
-        <hr/>
-      </li>
-      <li>
-        <hr/>
-        <div class="timeline-start timeline-box">5 Mei 2024 : Last Show Perayaan Kelulusan Shani Indira Natio</div>
-        <div class="timeline-middle">
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-5 h-5"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z" clip-rule="evenodd" /></svg>
-        </div>
-      </li>
-    </ul>
+      </div>
+    </div>
   </body>
 </html>
