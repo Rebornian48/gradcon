@@ -23,7 +23,7 @@
     <meta name="author" content="Rebornian48" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Shani Indira Natio Graduation Concert and Last Show</title>
+    <title>Graduation Concert and Last Show List</title>
     <!-- Favicon -->
     <link
       rel="icon"
@@ -35,226 +35,55 @@
       rel="stylesheet"
       href="https://use.fontawesome.com/releases/v6.5.1/css/all.css"
     />
-    <!-- Core theme CSS -->
-    <link
-      href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css"
-      rel="stylesheet"
-      type="text/css"
-    />
     <script src="https://cdn.tailwindcss.com"></script>
   </head>
 
   <body>
-    <div class="navbar bg-base-100">
-      <div class="flex-1">
-        <a class="btn btn-ghost text-xl">Rebornian48</a>
-      </div>
-      <div class="flex-none">
-        <ul class="menu menu-horizontal px-1">
-          <div class="dropdown mb-5">
-            <div tabindex="0" role="button" class="m-1">
-              Tema
-              <svg
-                width="12px"
-                height="12px"
-                class="h-2 w-2 fill-current opacity-60 inline-block"
-                xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 2048 2048"
+    <div class="bg-white py-16 sm:py-24">
+      <div class="mx-auto max-w-7xl sm:px-6 lg:px-8">
+        <div
+          class="relative isolate overflow-hidden bg-gray-900 px-6 py-24 shadow-2xl sm:rounded-3xl sm:px-24 xl:py-32"
+        >
+          <h2
+            class="mx-auto max-w-2xl text-center text-3xl font-bold tracking-tight text-white sm:text-4xl"
+          >
+            Graduation Concert and Last Show List
+          </h2>
+          <p
+            class="mx-auto mt-2 max-w-xl text-center text-lg leading-8 text-gray-300"
+          >
+            Get notified when we’re launching.
+          </p>
+          <svg
+            viewBox="0 0 1024 1024"
+            class="absolute left-1/2 top-1/2 -z-10 h-[64rem] w-[64rem] -translate-x-1/2"
+            aria-hidden="true"
+          >
+            <circle
+              cx="512"
+              cy="512"
+              r="512"
+              fill="url(#759c1415-0410-454c-8f7c-9a820de03641)"
+              fill-opacity="0.7"
+            />
+            <defs>
+              <radialGradient
+                id="759c1415-0410-454c-8f7c-9a820de03641"
+                cx="0"
+                cy="0"
+                r="1"
+                gradientUnits="userSpaceOnUse"
+                gradientTransform="translate(512 512) rotate(90) scale(512)"
               >
-                <path
-                  d="M1799 349l242 241-1017 1017L7 590l242-241 775 775 775-775z"
-                ></path>
-              </svg>
-            </div>
-            <ul
-              tabindex="0"
-              class="dropdown-content z-[1] p-2 shadow-2xl bg-base-300 rounded-box w-52"
-            >
-              <li>
-                <input
-                  type="radio"
-                  name="theme-dropdown"
-                  class="theme-controller btn btn-sm btn-block btn-ghost justify-start"
-                  aria-label="Gelap"
-                  value="dark"
-                />
-              </li>
-              <li>
-                <input
-                  type="radio"
-                  name="theme-dropdown"
-                  class="theme-controller btn btn-sm btn-block btn-ghost justify-start"
-                  aria-label="Terang"
-                  value="light"
-                />
-              </li>
-              <li>
-                <input
-                  type="radio"
-                  name="theme-dropdown"
-                  class="theme-controller btn btn-sm btn-block btn-ghost justify-start"
-                  aria-label="Malam"
-                  value="night"
-                />
-              </li>
-              <li>
-                <input
-                  type="radio"
-                  name="theme-dropdown"
-                  class="theme-controller btn btn-sm btn-block btn-ghost justify-start"
-                  aria-label="Senja"
-                  value="sunset"
-                />
-              </li>
-            </ul>
-          </div>
-          <li>&nbsp;&nbsp;&nbsp;&nbsp;</li>
-          <li>&nbsp;&nbsp;&nbsp;&nbsp;</li>
-          <li>&nbsp;&nbsp;&nbsp;&nbsp;</li>
-          <li>&nbsp;&nbsp;&nbsp;&nbsp;</li>
-        </ul>
-      </div>
-    </div>
-    <div class="hero bg-base-200">
-      <div class="artboard artboard-horizontal phone-3"><img src="./assets/img/header-singc.jpg" alt="Shani Indira Natio Graduation Concert"></div>
-    </div>
-    <div class="hero bg-base-200">
-      <div class="stats stats-vertical lg:stats-horizontal shadow">
-        <div class="stat">
-          <div class="stat-title">Graduation Concert</div>
-          <div class="grid grid-flow-col gap-5 text-center auto-cols-max">
-            <div class="flex flex-col">
-              <span class="countdown font-mono text-5xl" id="gch">
-                00
-              </span>
-              hari
-            </div> 
-            <div class="flex flex-col">
-              <span class="countdown font-mono text-5xl" id="gcj">
-                00
-              </span>
-              jam
-            </div> 
-            <div class="flex flex-col">
-              <span class="countdown font-mono text-5xl" id="gcm">
-                00
-              </span>
-              menit
-            </div> 
-            <div class="flex flex-col">
-              <span class="countdown font-mono text-5xl" id="gcd">
-                00
-              </span>
-              detik
-            </div>
-          </div>
-        </div>
-        <div class="stat">
-          <div class="stat-title">Last Show</div>
-          <div class="grid grid-flow-col gap-5 text-center auto-cols-max">
-            <div class="flex flex-col">
-              <span class="countdown font-mono text-5xl" id="lsh">
-                00
-              </span>
-              hari
-            </div> 
-            <div class="flex flex-col">
-              <span class="countdown font-mono text-5xl" id="lsj">
-                00
-              </span>
-              jam
-            </div> 
-            <div class="flex flex-col">
-              <span class="countdown font-mono text-5xl" id="lsm">
-                00
-              </span>
-              menit
-            </div> 
-            <div class="flex flex-col">
-              <span class="countdown font-mono text-5xl" id="lsd">
-                00
-              </span>
-              detik
-            </div>
-          </div>
-        </div>
-      </div>
-      </div>
-      <div class="hero bg-base-200">
-        <br />
-      </div>
-      <div class="hero bg-base-200">
-        <div class="stats stats-vertical lg:stats-horizontal shadow">
-          <div class="stat">
-            <div class="stat-title">Tiket Graduation Concert</div>
-            <div class="grid grid-flow-col gap-5 text-center auto-cols-max">
-              <div class="flex flex-col">
-                <span class="font-mono text-5xl">
-                  TERJUAL HABIS
-                </span>
-              </div> 
-            </div>
-          </div>
-          <div class="stat">
-            <div class="stat-title">Graduation Concert Live Streaming</div>
-            <div class="grid grid-flow-col gap-5 text-center auto-cols-max">
-              <div class="flex flex-col">
-                <span class="font-mono text-5xl">
-                  SUDAH ADA
-                </span>
-              </div> 
-            </div>
-          </div>
-        </div>
-        </div>
-        <div class="hero bg-base-200">
-          <br />
-        </div>
-        <ul class="timeline timeline-vertical">
-          <li>
-            <div class="timeline-start timeline-box">2 Juli 2023 : Shani Indira Natio mengumumkan kelulusannya</div>
-            <div class="timeline-middle">
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-5 h-5 text-primary"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z" clip-rule="evenodd" /></svg>
-            </div>
-            <hr class="bg-primary"/>
-          </li>
-          <li>
-          <hr class="bg-primary"/>
-            <div class="timeline-middle">
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-5 h-5 text-primary"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z" clip-rule="evenodd" /></svg>
-            </div>
-            <div class="timeline-end timeline-box">11 Oktober 2023 : MV Sayonara Crawl dirilis<br />
-              <iframe width="560" height="315" src="https://www.youtube.com/embed/5cy3vDjTfFY?si=ZJKCwjEgofpkPxQf" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-            </div>
-            <hr class="bg-primary"/>
-          </li>
-          <li>
-            <hr/>
-            <div class="timeline-middle">
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-5 h-5"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z" clip-rule="evenodd" /></svg>
-            </div>
-            <div class="timeline-end timeline-box">27 April 2024 : Graduation Concert "Last Voyage"</div>
-            <hr/>
-          </li>
-          <li>
-            <hr/>
-            <div class="timeline-start timeline-box">5 Mei 2024 : Last Show Perayaan Kelulusan Shani Indira Natio</div>
-            <div class="timeline-middle">
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-5 h-5"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z" clip-rule="evenodd" /></svg>
-            </div>
-          </li>
-        </ul>
-        
-      </div>
-          <footer>
-            <p class="text-center">
-              Dibangun oleh
-              <a href="https://rebornian48.github.io/">Rebornian48</a>
-            </p>
-          </footer>
+                <stop stop-color="#7775D6" />
+                <stop offset="1" stop-color="#E935C1" stop-opacity="0" />
+              </radialGradient>
+            </defs>
+          </svg>
         </div>
       </div>
     </div>
+
     <script src="./assets/js/script.js"></script>
   </body>
 </html>
